@@ -1,0 +1,7 @@
+dev_rg_name = "dev-rg"
+nsg_name = "nsg-test"
+vnet_name = "network"
+storage_account_name = "storageaccountveera01"
+account_tier = "Standard"
+keyvault_name = "devveera123"
+sku_name = "standard"
