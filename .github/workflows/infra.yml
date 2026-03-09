@@ -5,13 +5,13 @@ on:
     paths:
       - "**/*.tf"
       - "**/*.tfvars"
-      - ".github/workflows/terraform-azure.yml"
+      - ".github/workflows/infra.yml"
   push:
     branches: [ "main" ]
     paths:
       - "**/*.tf"
       - "**/*.tfvars"
-      - ".github/workflows/terraform-azure.yml"
+      - ".github/workflows/infra.yml"
   workflow_dispatch:
 
 permissions:
