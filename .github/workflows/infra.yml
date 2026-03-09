@@ -66,5 +66,4 @@ jobs:
           path: tfplan
 
       - name: Terraform Apply (main branch only)
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: terraform destroy -auto-approve tfplan
