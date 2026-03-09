@@ -66,5 +66,5 @@ jobs:
           path: tfplan
 
       - name: Terraform Apply (main branch only)
-        run: terraform destroy -auto-approve tfplan
+        run: terraform destroy -auto-approve 
         
